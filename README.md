@@ -1,5 +1,5 @@
-<H3>ENTER YOUR NAME:saiguruchandran</H3>
-<H3>ENTER YOUR REGISTER NO:212223240143</H3>
+<H3>ENTER YOUR NAME:saiguruchandran R</H3>
+<H3>ENTER YOUR REGISTER NO.212223240143 </H3>
 <H3>EX. NO.5</H3>
 <H3>DATE:22.04.2025</H3>
 <H1 ALIGN =CENTER> Implementation of Kalman Filter</H1>
@@ -12,7 +12,8 @@ Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
-<H3>Program:</H3>
+
+## Program:
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,14 +56,13 @@ plt.plot([s[0] for s in truestates],label="true")
 plt.plot([s[0] for s in est_states],label="Estimate")
 plt.legend()
 plt.show()
+
 ```
+## Output:
 
-<H3>Output:</H3>
-![image](https://github.com/user-attachments/assets/9fcbb843-82a0-45bd-835d-89481f5160b3)
+![370553924-a178967d-f3bb-408a-96a0-c79240ed9edb](https://github.com/user-attachments/assets/44979f3e-c293-4331-8ecd-9dfa2173098b)
 
-
-
-<H3>Results:</H3>
+## Results:
 Thus, Kalman filter is implemented to predict the next position and   velocity in Python
 
 
