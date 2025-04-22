@@ -58,7 +58,8 @@ plt.show()
 ```
 
 <H3>Output:</H3>
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/9eca83ce-6755-4f42-bb18-b4138d357760)
+
 
 
 <H3>Results:</H3>
